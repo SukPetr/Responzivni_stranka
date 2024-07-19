@@ -1,0 +1,52 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**************** 
+    Header 
+*****************/
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #154c18;
+  height: 70px;
+}
+.logo {
+  flex-grow: 2;
+}
+.logo img {
+  width: 200px;
+  margin-left: 20px;
+}
+
+/* Navigace */
+nav {
+  margin-right: 30px;
+}
+
+nav li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  color: rgb(206, 189, 37);
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 30px;
+}
+
+.welcome {
+  background: url("././background.webp");
+  min-height: calc(100vh - 70px);
+  background-size: cover;
+  background-position: center;
+}
